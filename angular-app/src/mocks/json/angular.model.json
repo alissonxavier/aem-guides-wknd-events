@@ -1,0 +1,67 @@
+{
+    "title": "Angular App",
+    ":path": "/content/wknd-events/angular",
+    ":hierarchyType": "page",
+    ":children": {
+        "/content/wknd-events/angular/home": {
+            "title": "Home",
+            ":path": "/content/wknd-events/angular/home",
+            ":hierarchyType": "page",
+            ":itemsOrder": [
+                "root"
+            ],
+            ":type": "wknd-events/components/structure/page",
+            ":items": {
+                "root": {
+                    "columnCount": 12,
+                    "columnClassNames": {
+                        "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+                    },
+                    "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                    ":itemsOrder": [
+                        "responsivegrid"
+                    ],
+                    ":items": {
+                        "responsivegrid": {
+                            "columnCount": 12,
+                            "columnClassNames": {
+                                "image": "aem-GridColumn aem-GridColumn--default--12",
+                                "text": "aem-GridColumn aem-GridColumn--default--12",
+                                "title": "aem-GridColumn aem-GridColumn--default--12"
+                            },
+                            "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+                            ":itemsOrder": [
+                                "text",
+                                "image",
+                                "title"
+                            ],
+                            ":items": {
+                                "text": {
+                                    "text": "\u003Ch2\u003E\u003Cb\u003EHello World\u003C/b\u003E\u003C/h2\u003E\n",
+                                    "richText": true,
+                                    ":type": "wknd-events/components/content/text"
+                                },
+                                "image": {
+                                    "srcUriTemplate": "/content/wknd-events/angular/home/_jcr_content/root/responsivegrid/image.coreimg{.width}.jpeg/1554831417859.jpeg",
+                                    "widths": [],
+                                    "lazyEnabled": false
+                                },
+                                "title": {
+                                    "title": "teste tete",
+                                    "type": "h1",
+                                    "font": "-regular",
+                                    ":type": "wknd-events/components/content/title"
+                                }
+                            },
+                            ":type": "wcm/foundation/components/responsivegrid"
+                        }
+                    },
+                    ":type": "wcm/foundation/components/responsivegrid"
+                }
+            }
+        }
+    },
+    ":itemsOrder": [],
+    ":type": "wknd-events/components/structure/app",
+    ":items": {}
+}

@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="en"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:Folder">
+    <ctaTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="cta.title"
+        sling:message="Title"/>
+    <ctaLink
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="cta.link"
+        sling:message="Link"/>
+    <ctaTarget
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="cta.target"
+        sling:message="Target"/>
+    <targetDescription
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="target.description"
+        sling:message="Default options of the link destination"/>
+    <ctaTargetBlank
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="cta.target.blank"
+        sling:message="Blank"/>
+    <ctaTargetSelf
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="cta.target.self"
+        sling:message="Self"/>
+    <multifieldHeadingItem
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="multifield.heading.item"
+        sling:message="+ Configuration of the Contents of the New Item"/>
+    <multifieldHint
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="multifield.hint"
+        sling:message="Click on the Add button to create the new item."/>
+    <breadcrumbTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="breadcrumb.title"
+        sling:message="Breadcrumb"/>
+    <breadcrumbStartLevel
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="breadcrumb.startLevel"
+        sling:message="Navigation Start Level"/>
+    <breadcrumbShowHidden
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="breadcrumb.showHidden"
+        sling:message="Show hidden navigation items"/>
+    <breadcrumbHideCurrent
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="breadcrumb.hideCurrent"
+        sling:message="Hide current page"/>
+    <breadcrumbDarkStyle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="breadcrumb.darkStyle"
+        sling:message="Show dark background style"/>
+    <buttonType
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="button.type"
+        sling:message="Button Type"/>
+    <buttonText
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="button.text"
+        sling:message="Button Text"/>
+    <buttonIcon
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="button.icon"
+        sling:message="Button Icon"/>
+    <buttonSize
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="button.size"
+        sling:message="Button Size"/>
+    <buttonLabel
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="button.label"
+        sling:message="Button Label"/>
+    <buttonLink
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="button.link"
+        sling:message="Button Link"/>
+    <messageRichText
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="message.richtext"
+        sling:message="Message text"/>
+    <messageColorBlue
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="message.colorBlue"
+        sling:message="Blue"/>
+    <messageColorBlack
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="message.colorBlack"
+        sling:message="Black"/>
+    <messageColorWhite
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="message.colorWhite"
+        sling:message="White"/>    
+    <videoPlayer
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="video.player"
+        sling:message="Hosted or Youtube:"/>
+    <videoThumb
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="video.thumb"
+        sling:message="Video thumb image"/>
+    <videoTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="video.title"
+        sling:message="Video Title"/>
+    <videoSubTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="video.subTitle"
+        sling:message="Video subtitle"/>
+    <videoUrlYoutube
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="video.urlYoutube"
+        sling:message="Youtube url"/>
+    <videoUrlDam
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="video.urlDam"
+        sling:message="Dam url"/>
+    <videoSize
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="video.size"
+        sling:message="Size"/>
+    <imageTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="image.title"
+        sling:message="Image AT&amp;T"/>
+    <imageModalTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="imageModal.title"
+        sling:message="Image Modal"/>
+    <imageModalImageThumb
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="imageModal.imageThumb"
+        sling:message="Thumb Image"/>
+    <imageModalImageLarge
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="imageModal.imageLarge"
+        sling:message="Desktop Image"/>
+    <tabMinMesssage
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="tab.minMessage"
+		sling:message="Minimum 1 item is required."/>
+    <tabMaxMesssage
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="tab.maxMessage"
+		sling:message="Maximum 6 items are allowed."/>
+    <menuVertical
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="menuVertical.title"
+        sling:message="Vertical Menu"/>
+    <menuVerticalOptions
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="menuVertical.heading.options"
+        sling:message="Setting the Vertical Menu Options"/>
+    <link_navigable_imageTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="link_navigable_image.title"
+        sling:message="Navigable Links and Images"/>
+    <link_navigable_imageIconText
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="link_navigable_image.iconText"
+        sling:message="Text icon"/>
+    <link_navigable_imageIconTextColor
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="link_navigable_image.iconTextColor"
+        sling:message="Text icon color"/>
+    <link_navigable_imageDescriptionColor
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="link_navigable_image.descriptionColor"
+        sling:message="Description color"/>
+    <link_navigable_imageMinMesssage
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="link_navigable_image.minMessage"
+        sling:message="Minimum 1 item is required."/>
+    <link_navigable_imageMaxMesssage
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="link_navigable_image.maxMessage"
+        sling:message="Maximum 6 items are allowed."/>
+    <simpletableIconColor
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="simpletable.iconColor"
+        sling:message="Icon color"/>
+    <seoTabTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="seo.tab.title"
+        sling:message="SEO Information"/>
+    <seoFaceWhatsTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="face.whats.meta"
+        sling:message="Facebook / WhatsApp"/>
+    <seoTwitterTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="twitter.meta"
+        sling:message="Twitter"/>
+    <metaTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="meta.title"
+        sling:message="Meta title"/>
+    <metaDescription
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="meta.description"
+        sling:message="Meta description"/>
+    <metaImage
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="meta.image"
+        sling:message="Meta image"/>
+    <metaType
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="meta.type"
+        sling:message="Meta type"/>
+    <metaCard
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="meta.card"
+        sling:message="Meta card"/>
+    <metaURL
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="meta.url"
+        sling:message="Meta url"/>
+    <news_blog_detailsComponent
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="news_blog_details.component"
+        sling:message="Details of News and Blog"/>
+    <news_blog_detailsAuthorName
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="news_blog_details.authorName"
+        sling:message="Author name"/>
+    <news_blog_detailsAuthorPosition
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="news_blog_details.authorPosition"
+        sling:message="Author position"/>
+    <news_blog_detailsAuthorCompanyt
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="news_blog_details.authorCompany"
+        sling:message="Author company"/>
+    <news_blog_detailsImageMarquee
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="news_blog_details.imageMarquee"
+        sling:message="Marquee image"/>   
+    <news_blog_detailsCategory
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="news_blog_details.category"
+        sling:message="Category"/>
+    <news_blog_detailsPublishDate
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="news_blog_details.publishDate"
+        sling:message="Publish date"/>    
+	<recentnewsTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="recentnews.title"
+        sling:message="Recent news"/>
+    <recentnewsLinkHint
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="recentnews.link.hint"
+        sling:message="Link to the article. Click to read more."/>
+    <recentnewsSeeMore
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="recentnews.link.SeeMore"
+        sling:message="See more"/>
+    <recentnewsLinkblock
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="recentnews.linkblock.hint"
+        sling:message="Link to read the news:"/>
+    <recentnewsItemsLengthHeading
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="recentnews.itemsLength.heading"
+        sling:message="Recent news settings"/>
+    <recentnewsItemsLength
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="recentnews.itemsLength"
+        sling:message="Quantity of news displayed."/>
+    <related_newsComponent
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="related_news.component"
+        sling:message="Related News"/>    
+    <recent_news_homeComponent
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="recent_news_home.component"
+        sling:message="Recent News Home"/>
+    <roraming_filterWS_title
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="roaming-mundial.title"
+        sling:message="Roaming Mundial Filter WS"/>
+    <roraming_filterWS_text_legal
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="roaming-mundial.text-legal"
+        sling:message="Texto Legal"/>
+    <roraming_filterWS_url
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="roaming-mundial.url"
+        sling:message="Service URL"/>
+    <roraming_filterWS_key
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="roaming-mundial.key"
+        sling:message="Service Key"/>
+    <roraming_filterWS_combo_heading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="roaming-mundial.combo-heading"
+        sling:message="Combobox configuration"/>
+    <roraming_filterWS_combo_add
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="roaming-mundial.combo-add-message"
+        sling:message="Click to add options to the combo"/>
+    <roaming_filterWS_service_type
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="roamingmundial.servicetype.message"
+        sling:message="What type of AT&amp;T service do you have?"/>
+    <roaming_filterWS_number_message
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="roamingmundial.number.message"
+        sling:message="What's your Number?"/>
+    <roaming_filterWS_inputNumber_title
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="roamingmundial.numberinput.title"
+        sling:message="Enter your number"/>
+    <roaming_filterWS_inputNumber_placeholder
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="roamingmundial.numberinput.placeholder"
+        sling:message="10-digit number"/>
+    <roaming_filterWS_inputNumber_placeholder_field
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="roaming-mundial.number-place-field"
+        sling:message="Number input placeholder"/>
+    <roaming_filterWS_button_verify
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="roamingmundial.verify.button"
+        sling:message="Verify"/>
+    <roaming_filterWS_country_message
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="roamingmundial.country.message"
+        sling:message="What country are you going to travel to?"/>
+    <roaming_filterWS_inputCountry_title
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="roamingmundial.countryinput.title"
+        sling:message="Search by country"/>
+    <roaming_filterWS_inputCountry_placeholder
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="roamingmundial.countryinput.placeholder"
+        sling:message="Write the country you will travel to"/>
+    <roaming_filterWS_inputCountry_placeholder_field
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="roaming-mundial.country-place-field"
+        sling:message="Country input placeholder"/>
+    <roaming_filterWS_countryColumn_title
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="roamingmundial.countrycolumn.title"
+        sling:message="If you are in this country"/>
+    <roaming_filterWS_tariff1Column_title
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="roamingmundial.tarrif1column.title"
+        sling:message="Rate 1"/>
+    <roaming_filterWS_tariff2Column_title
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="roamingmundial.tarrif2column.title"
+        sling:message="Rate 2"/>
+    <roaming_filterWS_tariff1Column_description
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="roamingmundial.tarrif1column.description"
+        sling:message="Minute incoming and outgoing (Home *, local and international)"/>
+    <roaming_filterWS_tariff2Column_description
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="roamingmundial.tarrif2column.description"
+        sling:message="Minute outgoing to the rest of the world"/>
+    <roaming_filterWS_smscolumnprice
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="roamingmundial.smscolumn.title"
+        sling:message="Price by SMS"/>
+    <roaming_filterWS_mbcolumnprice
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="roamingmundial.mbcolumn.title"
+        sling:message="Price per MB"/>
+    <news_blog_listComponent
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="news_blog_list.component"
+        sling:message="News List"/>
+    <preview_news_videos
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="preview_news_videos.title"
+        sling:message="Multimedia News Preview"/>
+    <preview_news_videosHeading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="preview_news_videos.heading"
+        sling:message="Videos about AT&amp;T"/>
+    <preview_news_videosSeeMore
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="preview_news_videos.seeMore"
+        sling:message="See More"/>
+    <preview_news_videosSeeFullNews
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="preview_news_videos.seeFullNews"
+        sling:message="See the complete news"/>
+    <preview_news_videosKnowMore
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="preview_news_videos.knowMore"
+        sling:message="Know more"/>
+    <playerIcon
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="player.icon"
+        sling:message="Player Icon"/>
+    <playerIconColor
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="player.iconColor"
+        sling:message="Player Icon Color"/>
+    <playerIconSize
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="player.iconSize"
+        sling:message="Player Icon Size"/>
+    <footer_business
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer_business.title"
+        sling:message="Footer Business"/>
+    <footer_businessMaxMessage
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer_business.maxMessage"
+        sling:message="Maximum 5 columns are allowed."/>
+    <footer_businessMinMessage
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer_business.minMessage"
+        sling:message="Minimum 2 columns is required."/>
+    <footer_businessTabMain
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer_business.tab.main"
+        sling:message="Main content"/>
+	<footer_businessHeadingTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer_business.heading.title"
+        sling:message="Title Settings"/>
+	<footer_businessMainTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer_business.mainTitle"
+        sling:message="Main Title"/>
+	<footer_businessHeadingMain
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer_business.heading.main"
+        sling:message="Configuration of the contents of columns."/>
+	<footer_businessCategory
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer_business.category"
+        sling:message="Category"/>
+	<footer_businessCategoryHint
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer_business.category.hint"
+        sling:message="The name of the category is used to define your column."/>
+	<footer_businessLinks
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer_business.links.hint"
+        sling:message="Column links"/>
+	<footer_businessTabColors
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer_business.tab.colors"
+        sling:message="Color settings"/>
+	<footer_businessHeadingColor
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer_business.heading.color"
+        sling:message="Configuration of colors for the contents"/>
+	<footer_businessBackgroundColor
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer_business.backgroundColor"
+        sling:message="Background Color of the component"/>
+	<footer_businessTitleColor
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer_business.color.title"
+        sling:message="Color of the Main Title"/>
+	<footer_businessCategoryColor
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer_business.color.category"
+        sling:message="Color of the Categories"/>
+	<footer_businessLinksColor
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer_business.color.links"
+        sling:message="Color of the Links"/>
+	<marquee_newsroom
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="marquee_newsroom.title"
+        sling:message="Marquee Newsroom"/>
+	<marquee_newsroomHContent
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="marquee_newsroom.heading.content"
+        sling:message="Content settings"/>
+	<marquee_newsroomVLength
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="marquee_newsroom.length.hint"
+        sling:message="Quantity of news displayed."/>
+	<marquee_newsroomVLengthDesc
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="marquee_newsroom.length.description"
+        sling:message="The minimum value is 1."/>
+    <marquee_newsroomLinkHint
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="marquee_newsroom.link.hint"
+        sling:message="Click to learn more about:"/>
+    <richtext_plus
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="richtext_plus.title"
+        sling:message="Rich Text - [ Block HTML ]"/>
+    <footer
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.title"
+        sling:message="Footer"/>
+    <footer_tab_nav
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.tab.nav"
+        sling:message="Navigation links"/>
+    <footer_tab_nav1_heading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.tab.nav1.heading"
+        sling:message="Navigation options (First column)"/>
+    <footer_tab_nav3_heading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.tab.nav3.heading"
+        sling:message="Navigation options (Third column)"/>
+    <footer_tab_nav4_heading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.tab.nav4.heading"
+        sling:message="Navigation options (Fourth column)"/>
+    <footer_tab_apps
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.tab.apps"
+        sling:message="Application links"/>
+    <footer_tab_apps_heading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.tab.apps.heading"
+        sling:message="Applications (Second column)"/>
+    <footer_tab_social
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.tab.social"
+        sling:message="Social network links and certification images"/>
+    <footer_tab_social_heading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.tab.social.heading"
+        sling:message="Social Networks and Certification Images"/>
+    <footer_tab_legales
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.tab.legales"
+        sling:message="Legal links with icons and images of certifications"/>
+    <footer_tab_legales_heading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.tab.legales.heading"
+        sling:message="Legal with icons and Certification Images"/>
+    <footer_tab_copyright
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.tab.copyright"
+        sling:message="Legend of copyright"/>
+    <footer_image_one
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.image.one"
+        sling:message="Image 1"/>
+    <footer_image_link_one
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.image.link.one"
+        sling:message="Link of the image 1"/>
+    <footer_image_target_one
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.image.target.one"
+        sling:message="Target of the image 1"/>
+    <footer_image_alt_one
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.image.alt.one"
+        sling:message="Alternative text of the image 1"/>
+    <footer_image_two
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.image.two"
+        sling:message="Image 2"/>
+    <footer_image_link_two
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.image.link.two"
+        sling:message="Link of the image 2"/>
+    <footer_image_target_two
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.image.target.two"
+        sling:message="Target of the image 2"/>
+    <footer_image_alt_two
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.image.alt.two"
+        sling:message="Alternative text of the image 2"/>
+    <icons
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="icons"
+        sling:message="Icons"/>
+    <footer_icon_one
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.icon.one"
+        sling:message="Icon 1"/>
+    <footer_icon_title_one
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.icon.title.one"
+        sling:message="Title of the icon 1"/>
+    <footer_icon_link_one
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.icon.link.one"
+        sling:message="Link of the icon 1"/>
+    <footer_icon_target_one
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.icon.target.one"
+        sling:message="Target of the icon 1"/>
+    <footer_icon_two
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.icon.two"
+        sling:message="Icon 2"/>
+    <footer_icon_title_two
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.icon.title.two"
+        sling:message="Title of the icon 2"/>
+    <footer_icon_link_two
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.icon.link.two"
+        sling:message="Link of the icon 2"/>
+    <footer_icon_target_two
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.icon.target.two"
+        sling:message="Target of the icon 2"/>
+    <footer_icon_three
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.icon.three"
+        sling:message="Icon 3"/>
+    <footer_icon_title_three
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.icon.title.three"
+        sling:message="Title of the icon 3"/>
+    <footer_icon_link_three
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.icon.link.three"
+        sling:message="Link of the icon 3"/>
+    <footer_icon_target_three
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.icon.target.three"
+        sling:message="Target of the icon 3"/>
+    <footer_icon_fourth
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.icon.fourth"
+        sling:message="Icon 4"/>
+    <footer_icon_title_fourth
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.icon.title.fourth"
+        sling:message="Title of the icon 4"/>
+    <footer_icon_link_fourth
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.icon.link.fourth"
+        sling:message="Link of the icon 4"/>
+    <footer_icon_target_fourth
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="footer.icon.target.fourth"
+        sling:message="Target of the icon 4"/>
+    <text
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="text"
+        sling:message="Text"/>
+    <subtitle
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="subtitle"
+        sling:message="Subtitle"/>
+    <image
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="att.image"
+        sling:message="Image"/>
+    <alt
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="att.alt"
+        sling:message="Alternative Text"/>
+    <link
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="att.link"
+        sling:message="Link"/>
+    <target
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="att.target"
+        sling:message="Target"/>
+    <title
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="title.component"
+        sling:message="Title"/>
+    <generic_item_title
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="item.title"
+        sling:message="Item Title"/>
+    <generic_item_value
+    	jcr:primaryType="sling:MessageEntry"
+        sling:key="item.value"
+        sling:message="Item Value"/>
+    <title_title
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="title.title"
+        sling:message="Title"/>
+    <title_type
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="title.type"
+        sling:message="Type / Size"/>
+    <title_type_small
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="title.type.small"
+        sling:message="Smaller"/>
+    <title_font
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="title.font"
+        sling:message="Font"/>
+    <title_align
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="title.align"
+        sling:message="Algin title to"/>
+    <title_align_left
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="title.align.left"
+        sling:message="Left"/>
+    <title_align_right
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="title.align.right"
+        sling:message="Right"/>
+    <title_align_center
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="title.align.center"
+        sling:message="Center"/>              
+    <separator
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="separator"
+        sling:message="Separator"/>
+    <category
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="category"
+        sling:message="Category"/>
+    <menu
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="menu.title"
+        sling:message="Menu"/>
+    <menu_tab_logo
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="menu.tab.logo"
+        sling:message="AT&#38;T logo"/>
+    <menu_tab_icon_search
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="menu.tab.icon.search"
+        sling:message="Search icon"/>
+    <menu_tab_icon_shopcart
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="menu.tab.icon.shopcart"
+        sling:message="Shopping cart icon"/>
+    <menu_tab_icon_miATT
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="menu.tab.icon.miatt"
+        sling:message="miATT icon"/>
+    <menu_tab_negocios
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="menu.tab.business"
+        sling:message="Link to business"/>
+    <menu_tab_options
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="menu.tab.options"
+        sling:message="Menu options"/>
+    <menu_options_categories
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="menu.options.categories"
+        sling:message="Menu categories"/>
+    <menu_options_first
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="menu.options.first"
+        sling:message="First level of the menu"/>
+    <menu_options_second
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="menu.options.second"
+        sling:message="Second level of the menu"/>
+    <menu_options_third
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="menu.options.third"
+        sling:message="Third level of the menu"/>
+    <product_sheet_component
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="product_sheet.component"
+        sling:message="Product Sheet"/>
+    <product_sheet_symbol
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="product_sheet.symbol"
+        sling:message="Price symbol"/>
+    <product_sheet_suffix
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="product_sheet.suffix"
+        sling:message="Price suffix"/>
+    <product_sheetMinMessage
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="product_sheet.minMessage"
+		sling:message="Minimum 1 item is required."/>
+    <product_sheetMaxMessage
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="product_sheet.maxMessage"
+		sling:message="Maximum 4 items are allowed."/>
+    <collapsable_oferta
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta"
+        sling:message="Collapsable Offer"/>
+    <collapsable_oferta_maxMessage
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.maxMessage"
+        sling:message="A maximum of 5 plans is allowed."/>
+    <collapsable_oferta_minMessage
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.minMessage"
+        sling:message="A minimum of 1 plan is required."/>
+    <collapsable_oferta_heading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.heading"
+        sling:message="Component header"/>
+    <collapsable_oferta_title
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.title"
+        sling:message="Title of the component"/>
+    <collapsable_oferta_subtitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.subtitle"
+        sling:message="Subtitle of the component"/>
+    <collapsable_oferta_headingMultifield
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.headingMultifield"
+        sling:message="Contents of the plans"/>
+    <collapsable_oferta_plans_hint
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.plans.hint"
+        sling:message="Configuration of the plan list"/>
+    <collapsable_oferta_plans_heading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.plans.heading"
+        sling:message="Plan"/>
+    <collapsable_oferta_plans_title
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.plans.title"
+        sling:message="Title of the plan"/>
+    <collapsable_oferta_cards_hint
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.cards.hint"
+        sling:message="Configuration of the plan offer cards."/>
+    <collapsable_oferta_cards_heading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.cards.heading"
+        sling:message="Offer Card"/>
+    <collapsable_oferta_cards_title
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.cards.title"
+        sling:message="Title of the offer card"/>
+    <collapsable_oferta_cards_price
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.cards.price"
+        sling:message="Price of the offer card"/>
+    <collapsable_oferta_cards_timelife
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.cards.timelife"
+        sling:message="Duration of the plan"/>
+    <collapsable_oferta_cards_legales
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.cards.legales"
+        sling:message="Legal text of the offer card *"/>
+    <collapsable_oferta_cards_countnet
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.cards.countnet"
+        sling:message="Number of units of the plan"/>
+    <collapsable_oferta_cards_unitnet 
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.cards.unitnet"
+        sling:message="Unit of measure of Internet of the plan"/>
+    <collapsable_oferta_cards_urlService
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.cards.urlService"
+        sling:message="Button service URL"/>
+    <collapsable_oferta_cards_btnLabel
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.cards.btnLabel"
+        sling:message="Button Label"/>
+    <collapsable_oferta_blocks_hint
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.blocks.hint"
+        sling:message="Text and image blocks list"/>
+    <collapsable_oferta_blocks_heading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.blocks.heading"
+        sling:message="Block of text and image"/>
+    <collapsable_oferta_blocks_text
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.blocks.text"
+        sling:message="Block text"/>
+    <collapsable_oferta_blocks_image
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.blocks.image"
+        sling:message="Block image"/>
+    <collapsable_oferta_blocks_alt
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="collapsable_oferta.blocks.alt"
+        sling:message="Alternative text for the block image"/>
+    <slider_equipos_component
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="slider_equipos.component"
+        sling:message="Hardware Slider WS"/>
+    <slider_equipos_title
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="slider_equipos.title"
+        sling:message="Slider title"/>
+    <slider_equipos_subTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="slider_equipos.subTitle"
+        sling:message="Slider subtitle"/>
+    <slider_equipos_titleImgAlt
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="slider_equipos.titleImgAlt"
+        sling:message="Card Image alternative text"/>
+    <slider_equipos_titleImg
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="slider_equipos.titleImg"
+        sling:message="Card image"/>
+    <slider_equipos_webServiceUrl
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="slider_equipos.webServiceUrl"
+        sling:message="Webservice url"/>
+    <slider_equipos_webServiceKey
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="slider_equipos.webServiceKey"
+        sling:message="Webservice key"/>
+    <slider_equipos_legalText
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="slider_equipos.legalText"
+        sling:message="Legal Slider text"/>
+    <slider_equipos_modalImg
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="slider_equipos.modalImg"
+        sling:message="Legal Slider image"/>
+    <ccmap2
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="ccmap2.title"
+        sling:message="Compliance Coverage Map"/>
+    <ccmap2_sectionTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="ccmap2.section.title"
+        sling:message="Coverages"/>
+    <ccmap2_formLabel
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="ccmap2.form.label"
+        sling:message="Search by postal code:"/>
+    <ccmap
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="ccmap.title"
+        sling:message="Commercial Coverage Map"/>
+    <ccmap_formLabel
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="ccmap.form.label"
+        sling:message="Enter the Postal Code of the State to search:"/>
+    <ccmap_formPlaceholder
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="ccmap.form.placeholder"
+        sling:message="5 digits of the Postal Code"/>
+    <ccmap_buttonText
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="ccmap.button.text"
+        sling:message="Search"/>
+    <ccmap_buttonTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="ccmap.button.title"
+        sling:message="Enter the Postal Code correctly before clicking"/>
+    <ccmap_linkareaText
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="ccmap.linkarea.text"
+        sling:message="See Complete Map"/>
+    <ccmap_linkareaTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="ccmap.linkarea.title"
+        sling:message="Click to open the map"/>
+    <ccmap_mapal
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="ccmap.mapal"
+        sling:message="Commercial Coverage AT&amp;T"/>
+    <ccmap_modalHeader
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="ccmap.modal.header"
+        sling:message="Attention"/>
+    <ccmap_modalBody
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="ccmap.modal.body"
+        sling:message="We could not find your postal code, please try another one."/>
+    <ccmap_modalFooter
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="ccmap.modal.footer"
+        sling:message="Close"/>
+    <desktop_mobile_imageComponent
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="desktop_mobile_image.component"
+        sling:message="Desktop Mobile Image"/>
+    <desktop_mobile_imageDesktopImage
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="desktop_mobile_image.desktopImage"
+        sling:message="Desktop image"/>
+    <desktop_mobile_imageMobileImage
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="desktop_mobile_image.mobileImage"
+        sling:message="Mobile image"/>
+    <card_promoComponent
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="card_promo.component"
+        sling:message="Card Promo"/>
+    <card_promoContainer
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="card_promo.container"
+        sling:message="Card Promo Container"/>
+    <buscador_tiendas
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="buscador_tiendas.title"
+        sling:message="Store Finder WS"/>
+    <buscador_tiendas_ws_states
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="buscador_tiendas.ws.states"
+        sling:message="Web Service URL of the States"/>
+    <buscador_tiendas_ws_counties
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="buscador_tiendas.ws.counties"
+        sling:message="Web Service URL of the Counties"/>
+    <buscador_tiendas_ws_plans
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="buscador_tiendas.ws.plans"
+        sling:message="Web Service URL of the Plans"/>
+    <buscador_tiendas_ws_key
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="buscador_tiendas.ws.key"
+        sling:message="Web Service Key"/>
+    <buscador_tiendas_urlMap
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="buscador_tiendas.urlMap"
+        sling:message="Map URL"/>
+    <buscador_tiendas_select_text
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="buscador_tiendas.select.text"
+        sling:message="Select"/>
+    <buscador_tiendas_selectState
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="buscador_tiendas.selectState"
+        sling:message="Select the State:"/>
+    <buscador_tiendas_selectCounty
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="buscador_tiendas.selectCounty"
+        sling:message="Select the Counties:"/>
+    <buscador_tiendas_searchStore_label
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="buscador_tiendas.searchStore.label"
+        sling:message="Search store:"/>
+    <buscador_tiendas_searchStore_title
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="buscador_tiendas.searchStore.title"
+        sling:message="Enter the keyword to search"/>
+    <buscador_tiendas_searchStore_keyword
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="buscador_tiendas.searchStore.keyword"
+        sling:message="Keyword"/>
+    <buscador_tiendas_th_chain
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="buscador_tiendas.th.chain"
+        sling:message="Chain"/>
+    <buscador_tiendas_th_store
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="buscador_tiendas.th.store"
+        sling:message="Store"/>
+    <buscador_tiendas_th_address
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="buscador_tiendas.th.address"
+        sling:message="Address"/>
+    <buscador_tiendas_th_service
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="buscador_tiendas.th.service"
+        sling:message="Service"/>
+    <modal_okModalType
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="modal_ok.modalType"
+        sling:message="Modal Type"/>
+    <business_contact_miniForm
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.title"
+        sling:message="Mini Form Business Contact"/>
+    <business_contact_miniForm_tab_header
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.tab.header"
+        sling:message="Header Settings"/>
+    <business_contact_miniForm_tab_form
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.tab.form"
+        sling:message="Form Settings"/>
+    <business_contact_miniForm_dialog_title
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.dialog.title"
+        sling:message="Header Title"/>
+    <business_contact_miniForm_dialog_richtext
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.dialog.richtext"
+        sling:message="Header Rich Text"/>
+    <business_contact_miniForm_heading_company
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.heading.company"
+        sling:message="Setting the Company Field"/>
+    <business_contact_miniForm_company_placeholder
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.company.placeholder"
+        sling:message="Placeholder of Company Field"/>
+    <business_contact_miniForm_company_tooltip
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.company.tooltip"
+        sling:message="Information Message of Company Field"/>
+    <business_contact_miniForm_heading_contactEmail
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.heading.contactEmail"
+        sling:message="Setting the Contact Email Field"/>
+    <business_contact_miniForm_contactEmail_placeholder
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.contactEmail.placeholder"
+        sling:message="Contact Email Placeholder"/>
+    <business_contact_miniForm_heading_informativeText
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.heading.infoText"
+        sling:message="Setting of Informative Text"/>
+    <business_contact_miniForm_heading_button
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.heading.button"
+        sling:message="Setting the Form Button"/>
+    <business_contact_miniForm_formButton_text
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.formButton.text"
+        sling:message="Button Text"/>
+    <business_contact_miniForm_formButton_url
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.formButton.url"
+        sling:message="Mini Form Service URL"/>
+	<business_contact_miniForm_messageAdvice 
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.messageAdvice"
+        sling:message="These fields are necessary."/>
+	<business_contact_miniForm_formDefaultTip
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.formDefaultTip"
+        sling:message="Enter with a valid value."/>
+	<business_contact_miniForm_formContactNameValidTip
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.formContactNameValidTip"
+        sling:message="No symbols or punctuation are allowed."/>
+	<business_contact_miniForm_formContactEmailValidTip
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.formContactEmailValidTip"
+        sling:message="Enter with a valid email."/>
+	<business_contact_miniForm_companyLabel
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.companyLabel"
+        sling:message="Company"/>
+	<business_contact_miniForm_contactNameLabel
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.contactNameLabel"
+        sling:message="Contact Name"/>
+	<business_contact_miniForm_contactEmailLabel
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="business_contact_miniForm.contactEmailLabel"
+        sling:message="Contact E-mail"/>
+	<filtro_busqueda_tabla_ws
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws"
+        sling:message="Filter Search Table WS"/>
+	<filtro_busqueda_tabla_ws_title
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.title"
+        sling:message="Header Title"/>
+	<filtro_busqueda_tabla_ws_subtitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.subtitle"
+        sling:message="Header Subtitle"/>
+	<filtro_busqueda_tabla_ws_searchPlaceholder
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.searchPlaceholder"
+        sling:message="Placeholder of the Search Field"/>
+	<filtro_busqueda_tabla_ws_url
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.url"
+        sling:message="Web Service URL"/>
+	<filtro_busqueda_tabla_ws_combobox
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.combobox"
+        sling:message="Show plan selector?"/>
+	<filtro_busqueda_tabla_ws_yes
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.yes"
+        sling:message="Yes"/>
+	<filtro_busqueda_tabla_ws_no
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.no"
+        sling:message="No"/>
+	<filtro_busqueda_tabla_ws_headingCombo
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.headingCombo"
+        sling:message="Configuration the Combo Box"/>
+	<filtro_busqueda_tabla_ws_itemText
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.itemText"
+        sling:message="Text of the Item"/>
+	<filtro_busqueda_tabla_ws_itemValue
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.itemValue"
+        sling:message="Value of the Item"/>
+	<filtro_busqueda_tabla_ws_selectLabel
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.selectLabel"
+        sling:message="What kind of plan do you have?"/>
+    <filtro_busqueda_tabla_ws_selectDefault
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.selectDefault"
+        sling:message="Select"/>
+	<filtro_busqueda_tabla_ws_searchLabel
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.searchLabel"
+        sling:message="What country do you want to call?"/>
+    <filtro_busqueda_tabla_ws_th1
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.th1"
+        sling:message="Long distance key"/>
+    <filtro_busqueda_tabla_ws_th2
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.th2"
+        sling:message="Country"/>
+    <filtro_busqueda_tabla_ws_th3
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.th3"
+        sling:message="Rate per minute with VAT"/>
+    <filtro_busqueda_tabla_ws_th4
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.th4"
+        sling:message="Rate x minute without VAT"/>
+    <filtro_busqueda_tabla_ws_searchLabel
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.searchLabel"
+        sling:message="Search Label"/>    
+    <filtro_busqueda_tabla_ws_comboLabel
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.comboLabel"
+        sling:message="Combo Label"/>
+    <filtro_busqueda_tabla_ws_firstCombo
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_ws.firstCombo"
+        sling:message="First combo element"/>
+    <filtro_busqueda_tabla_component
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="filtro_busqueda_tabla_component"
+        sling:message="Filter Search With Table"/>
+    <priceRequired
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="priceRequired"
+        sling:message="Price *"/>
+    <consultafoliotitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="consultafolio.title"
+        sling:message="Consulta Folio Form WS"/>
+    <cxeformtitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="cxeform.title"
+        sling:message="CXE Form WS"/>
+    <cxeformError
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="cxeform.error"
+        sling:message="Error Message"/>
+    <cxeImageMobile
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="cxe.imageMobile"
+        sling:message="Mobile Image"/>
+    <cxeCopy
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="cxe.copy"
+        sling:message="Copy"/>
+    <cxeLinkText
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="cxe.linkText"
+        sling:message="Link text"/>
+    <cxeURL
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="cxe.url"
+        sling:message="URL"/>
+    <bcfwsstatesWebServiceUrl
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="bcfws.statesWebServiceUrl"
+        sling:message="States Webservice url"/>
+    <comparative_tableBtnTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="comparative_table.btnTitle"
+        sling:message="Button title"/>
+    <comparative_tableValidation
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="comparative_table.validation"
+        sling:message="Please Enter the columns width value so that the somatory be at max 100"/>
+      <bcfws.appId
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="bcfws.appId"
+        sling:message="Id"/>
+    <modal.desktop
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="modal.desktop"
+        sling:message="Desktop"/>
+    <click.to.close
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="click.to.close"
+        sling:message="Click to close"/>
+    <tagmanager.tab.title
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="tagmanager.tab.title"
+        sling:message="Tag Manager"/>
+    <hotjar.tab.title
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="hotjar.tab.title"
+        sling:message="Hotjar"/>
+    <account.text
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="account.text"
+        sling:message="Account"/>
+    <version.text
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="version.text"
+        sling:message="Version"/>
+    <sections.text
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="sections.text"
+        sling:message="Sections"/>
+    <clickForMoreDetails
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="click.for.more.details"
+        sling:message="Click for more details"/>
+    <conoceTuFacturaTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.title"
+        sling:message="Conoce Tu Factura"/>
+    <conoceTuFacturaHeader
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.main"
+        sling:message="Main"/>
+    <conoceTuFacturaMainHeading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.main.heading"
+        sling:message="Header settings"/>
+    <conoceTuFacturaMainTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.mainTitle"
+        sling:message="Title text"/>
+    <conoceTuFacturaMainSubtitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.mainSubtitle"
+        sling:message="Subtitle text"/>
+    <conoceTuFacturaMainInfo
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.mainInfo"
+        sling:message="Information text"/>
+    <conoceTuFacturaMainButtonText
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.mainButtonText"
+        sling:message="Button text"/>
+    <conoceTuFacturaTab1
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.tab1"
+        sling:message="Tab 1"/>
+    <conoceTuFacturaTab2
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.tab2"
+        sling:message="Tab 2"/>
+    <conoceTuFacturaTab3
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.tab3"
+        sling:message="Tab 3"/>
+    <conoceTuFacturaTabHeading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.tab.heading"
+        sling:message="Image configuration"/>
+    <conoceTuFacturaImageTab
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.imageTab"
+        sling:message="Path of the image"/>
+    <conoceTuFacturaImageAlt
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.imageAlt"
+        sling:message="Alternative text for the image"/>
+    <conoceTuFacturaBulletsList1Heading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.bulletsList1.heading"
+        sling:message="Configuration of the blue circles of the image 1"/>
+    <conoceTuFacturaBulletsList2Heading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.bulletsList2.heading"
+        sling:message="Configuration of the blue circles of the image 2"/>
+    <conoceTuFacturaBulletsList3Heading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.bulletsList3.heading"
+        sling:message="Configuration of the blue circles of the image 3"/>
+    <conoceTuFacturaBulletHeading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.bullet.heading"
+        sling:message="Informative modal"/>
+    <conoceTuFacturaBulletPositionLeft
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.bullet.positionLeft"
+        sling:message="Position on the left (%)"/>
+    <conoceTuFacturaBulletPositionTop
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.bullet.positionTop"
+        sling:message="Top position (%)"/>
+    <conoceTuFacturaBulletPositionModal
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.bullet.positionModal"
+        sling:message="Modal position when opening"/>
+    <top.text
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="modal.position.top"
+        sling:message="Top"/>
+    <left.text
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="modal.position.left"
+        sling:message="Left"/>
+    <right.text
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="modal.position.right"
+        sling:message="Right"/>
+    <bottom.text
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="modal.position.bottom"
+        sling:message="Bottom"/>
+    <conoceTuFacturaBulletTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.bulletTitle"
+        sling:message="Title text for the modal"/>
+    <conoceTuFacturaBulletSummary
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.bulletSummary"
+        sling:message="Summary text for the modal *"/>
+    <conoceTuFacturaBulletBody
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.bulletBody"
+        sling:message="Body text for the modal *"/>
+    <conoceTuFacturaConcepts
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.concepts"
+        sling:message="Concepts"/>
+    <conoceTuFacturaConceptsTitleHeading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.conceptsTitle.heading"
+        sling:message="Setting the title of the list"/>
+    <conoceTuFacturaConceptsTitle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.concepts.title"
+        sling:message="Title text"/>
+    <conoceTuFacturaConceptsHeading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.concepts.heading"
+        sling:message="Configuration of the list of concepts"/>
+    <conoceTuFacturaConceptHeading
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.concept.heading"
+        sling:message="Abbreviation and concept"/>
+    <conoceTuFacturaConceptAbbreviation
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.concepts.abbreviation"
+        sling:message="Text of the abbreviation"/>
+    <conoceTuFacturaConceptsConcept
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="conoceTuFactura.concepts.concept"
+        sling:message="Concept text"/>
+    <closeModalHint
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="close.modal.hint"
+        sling:message="Click to close the modal"/>
+    <clickToPrevious
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="click.to.previous"
+        sling:message="Click to go to the previous step of the document"/>
+    <clickToNext
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="click.to.next"
+        sling:message="Click to go to the next step of the document"/>
+    <of.text
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="of.text"
+        sling:message="of"/>
+    <previous.text
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="previous.text"
+        sling:message="Previous"/>
+    <next.text
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="next.text"
+        sling:message="Next"/>
+    <buttonLeftHint
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="button.left.hint"
+        sling:message="Click to navigate left"/>
+    <buttonRightHint
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="button.right.hint"
+        sling:message="Click to navigate right"/>
+    <whatTypeOfATTServiceDoHave
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="what.type.of.att.service.do.have"
+        sling:message="What type of AT&amp;T service do have?"/>
+    <videoPlayerClickHint 
+    	jcr:primaryType="sling:MessageEntry" 
+    	sling:key="videoPlayer.click.hint" 
+    	sling:message="Click to watch the video"/>
+</jcr:root>

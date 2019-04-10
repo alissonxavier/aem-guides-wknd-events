@@ -1,0 +1,73 @@
+2019-04-08T16:38:11.723Z - info:   [14964] *** FOLDER: d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events ***
+2019-04-08T16:38:11.725Z - info:   [14964] AzureReposVSCode/1.149.2 (VSCode 1.28.2; Windows_NT 10.0.17134; Node 8.9.3)
+2019-04-08T16:38:11.725Z - debug:  [14964] Looking for an External Context at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-08T16:38:11.725Z - debug:  [14964] No External Context at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-08T16:38:11.736Z - debug:  [14964] Looking for TFVC repository at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-08T16:38:11.737Z - debug:  [14964] TFVC Creating Tfvc object with localPath='undefined'
+2019-04-08T16:38:11.737Z - debug:  [14964] Using TFS proxy: 
+2019-04-08T16:38:11.737Z - debug:  [14964] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\TeamExplorer\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-04-08T16:38:11.738Z - warn:   [14964] TFVC C:\Program Files (x86)\Microsoft Visual Studio\2017\TeamExplorer\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe does not exist.
+2019-04-08T16:38:11.738Z - error:  [14964] Unable to find the TF executable. Please ensure TF is installed and the path specified contains the filename.
+2019-04-08T16:39:34.534Z - info:   [39516] *** FOLDER: d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events ***
+2019-04-08T16:39:34.535Z - info:   [39516] AzureReposVSCode/1.149.2 (VSCode 1.28.2; Windows_NT 10.0.17134; Node 8.9.3)
+2019-04-08T16:39:34.535Z - debug:  [39516] Looking for an External Context at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-08T16:39:34.535Z - debug:  [39516] No External Context at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-08T16:39:34.545Z - debug:  [39516] Looking for TFVC repository at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-08T16:39:34.545Z - debug:  [39516] TFVC Creating Tfvc object with localPath='undefined'
+2019-04-08T16:39:34.545Z - debug:  [39516] Using TFS proxy: 
+2019-04-08T16:39:34.545Z - debug:  [39516] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\TeamExplorer\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-04-08T16:39:34.546Z - warn:   [39516] TFVC C:\Program Files (x86)\Microsoft Visual Studio\2017\TeamExplorer\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe does not exist.
+2019-04-08T16:39:34.546Z - error:  [39516] Unable to find the TF executable. Please ensure TF is installed and the path specified contains the filename.
+2019-04-09T12:18:04.366Z - info:   [23180] *** FOLDER: d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events ***
+2019-04-09T12:18:04.369Z - info:   [23180] AzureReposVSCode/1.149.2 (VSCode 1.28.2; Windows_NT 10.0.17134; Node 8.9.3)
+2019-04-09T12:18:04.370Z - debug:  [23180] Looking for an External Context at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-09T12:18:04.370Z - debug:  [23180] No External Context at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-09T12:18:04.401Z - debug:  [23180] Looking for TFVC repository at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-09T12:18:04.401Z - debug:  [23180] TFVC Creating Tfvc object with localPath='undefined'
+2019-04-09T12:18:04.402Z - debug:  [23180] Using TFS proxy: 
+2019-04-09T12:18:04.402Z - debug:  [23180] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\TeamExplorer\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-04-09T12:18:04.402Z - warn:   [23180] TFVC C:\Program Files (x86)\Microsoft Visual Studio\2017\TeamExplorer\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe does not exist.
+2019-04-09T12:18:04.403Z - error:  [23180] Unable to find the TF executable. Please ensure TF is installed and the path specified contains the filename.
+2019-04-09T20:19:54.842Z - info:   [27684] *** FOLDER: d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events ***
+2019-04-09T20:19:54.844Z - info:   [27684] AzureReposVSCode/1.149.2 (VSCode 1.28.2; Windows_NT 10.0.17134; Node 8.9.3)
+2019-04-09T20:19:54.844Z - debug:  [27684] Looking for an External Context at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-09T20:19:54.844Z - debug:  [27684] No External Context at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-09T20:19:54.856Z - debug:  [27684] Looking for TFVC repository at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-09T20:19:54.857Z - debug:  [27684] TFVC Creating Tfvc object with localPath='undefined'
+2019-04-09T20:19:54.858Z - debug:  [27684] Using TFS proxy: 
+2019-04-09T20:19:54.858Z - debug:  [27684] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\TeamExplorer\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-04-09T20:19:54.859Z - warn:   [27684] TFVC C:\Program Files (x86)\Microsoft Visual Studio\2017\TeamExplorer\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe does not exist.
+2019-04-09T20:19:54.861Z - error:  [27684] Unable to find the TF executable. Please ensure TF is installed and the path specified contains the filename.
+2019-04-09T20:20:26.894Z - debug:  [27684] Reinitializing due to onDidChangeConfiguration
+2019-04-09T20:20:26.896Z - debug:  [27684] Polling interval value (minutes): 5
+2019-04-09T20:20:26.896Z - debug:  [27684] Polling interval must be greater than 10 minutes.
+2019-04-09T20:20:26.904Z - info:   [27684] *** FOLDER: d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events ***
+2019-04-09T20:20:26.904Z - info:   [27684] AzureReposVSCode/1.149.2 (VSCode 1.28.2; Windows_NT 10.0.17134; Node 8.9.3)
+2019-04-09T20:20:26.905Z - debug:  [27684] Looking for an External Context at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-09T20:20:26.905Z - debug:  [27684] No External Context at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-09T20:20:26.974Z - debug:  [27684] Looking for TFVC repository at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-09T20:20:26.975Z - debug:  [27684] TFVC Creating Tfvc object with localPath='undefined'
+2019-04-09T20:20:26.976Z - debug:  [27684] Using TFS proxy: 
+2019-04-09T20:20:26.976Z - debug:  [27684] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\TeamExplorer\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-04-09T20:20:26.977Z - warn:   [27684] TFVC C:\Program Files (x86)\Microsoft Visual Studio\2017\TeamExplorer\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe does not exist.
+2019-04-09T20:20:26.977Z - error:  [27684] Unable to find the TF executable. Please ensure TF is installed and the path specified contains the filename.
+2019-04-09T20:24:34.410Z - info:   [12292] *** FOLDER: d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events ***
+2019-04-09T20:24:34.412Z - info:   [12292] AzureReposVSCode/1.149.2 (VSCode 1.28.2; Windows_NT 10.0.17134; Node 8.9.3)
+2019-04-09T20:24:34.412Z - debug:  [12292] Looking for an External Context at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-09T20:24:34.414Z - debug:  [12292] No External Context at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-09T20:24:34.424Z - debug:  [12292] Looking for TFVC repository at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-09T20:24:34.425Z - debug:  [12292] TFVC Creating Tfvc object with localPath='undefined'
+2019-04-09T20:24:34.425Z - debug:  [12292] Using TFS proxy: 
+2019-04-09T20:24:34.425Z - debug:  [12292] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\TeamExplorer\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-04-09T20:24:34.426Z - warn:   [12292] TFVC C:\Program Files (x86)\Microsoft Visual Studio\2017\TeamExplorer\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe does not exist.
+2019-04-09T20:24:34.426Z - error:  [12292] Unable to find the TF executable. Please ensure TF is installed and the path specified contains the filename.
+2019-04-09T20:28:34.821Z - info:   [34740] *** FOLDER: d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events ***
+2019-04-09T20:28:34.821Z - info:   [34740] AzureReposVSCode/1.149.2 (VSCode 1.33.0; Windows_NT 10.0.17134; Node 10.2.0)
+2019-04-09T20:28:34.821Z - debug:  [34740] Looking for an External Context at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-09T20:28:34.821Z - debug:  [34740] No External Context at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-09T20:28:34.826Z - debug:  [34740] Looking for TFVC repository at d:\Ifactory\Projetos\Localiza\aem-guides-wknd-events
+2019-04-09T20:28:34.826Z - debug:  [34740] TFVC Creating Tfvc object with localPath='undefined'
+2019-04-09T20:28:34.827Z - debug:  [34740] Using TFS proxy: 
+2019-04-09T20:28:34.827Z - debug:  [34740] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\TeamExplorer\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2019-04-09T20:28:34.827Z - warn:   [34740] TFVC C:\Program Files (x86)\Microsoft Visual Studio\2017\TeamExplorer\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe does not exist.
+2019-04-09T20:28:34.827Z - error:  [34740] Unable to find the TF executable. Please ensure TF is installed and the path specified contains the filename.
